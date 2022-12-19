@@ -55,6 +55,7 @@ fun GameScreen(option: Option, onOptionSelectedListener: (Option) -> Unit) {
     }
 
     LaunchedEffect(Unit) {
+        // この部分はcurrentOptionが更新されても再起動されない
         repeat(5) {
             delay(1000L)
             timer--

@@ -7,8 +7,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
-import com.masa.sideeffectshandlerdemo.sideeffects.launchedeffect.LaunchedEffectSnackBarSample
-import com.masa.sideeffectshandlerdemo.sideeffects.rememberupdatedstate.RememberUpdatedStateSample
 import com.masa.sideeffectshandlerdemo.ui.theme.SideEffectsHandlerDemoTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,8 +19,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    //LaunchedEffectSnackBarSample()
-                    RememberUpdatedStateSample()
+                    LaunchedEffectSnackBarSample()
                 }
             }
         }
